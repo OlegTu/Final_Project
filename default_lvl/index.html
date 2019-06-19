@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -10,6 +10,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap&subset=cyrillic" rel="stylesheet">
 
     <link rel="stylesheet" href="css/stylesheet.css">
 
@@ -23,42 +24,45 @@
 
             <img src="../images/logo.png" alt="Логотип">
 
-            <span>Единый <br>Центр Записи</span>
+            <span class="header__logo--name">Единый <br>Центр Записи</span>
         </div>
 
 
         <div class="navigator">
             <div class="navigator__tel">
                 <img class="logo__tel" src="../images/phone-square.png" alt="телефон">
-                <span>80300 5000</span>
+                <span class="navigator__tel--number">80300 5000</span>
             </div>
             <nav class="navigator__menu">
-                <a href="#">Главная</a>
-                <a href="#">Услуги</a>
-                <a href="#">Клиники и кабинеты</a>
-                <a href="#">О нас</a>
-                <a href="#">Статьи</a>
-                <a href="#">FAQ</a>
-                <a href="#">Контакты</a>
+                <ul class="navigator__menu--list">
+                    <li class="navigator__list"><a class="navigator__text" href="#">Главная</a></li>
+                    <li class="navigator__list"><a class="navigator__text" href="#">Услуги</a></li>
+                    <li class="navigator__list"><a class="navigator__text" href="#">Клиники и кабинеты</a></li>
+                    <li class="navigator__list"><a class="navigator__text" href="#">О нас</a></li>
+                    <li class="navigator__list"><a class="navigator__text" href="#">Статьи</a></li>
+                    <li class="navigator__list"><a class="navigator__text" href="#">FAQ</a></li>
+                    <li class="navigator__list"><a class="navigator__text" href="#">Контакты</a></li>
+                </ul>
             </nav>
         </div>
     </div>
 
 </header>
+
 <body>
 <div class="banner">
     <div class="banner__wrap">
         <section class="banner__info">
-            <p class="banner__text1">Всю необходимую информацию о том, как и в каком центре<br>
+            <p class="banner__article--text">Всю необходимую информацию о том, как и в каком центре<br>
                 сделать МРТ, КТ и рентген исследованиях, cравнить интересующие<br>
                 Вас клиники, цены на диагностику и порядок прохождения<br>
                 процедур, а также записаться на исследование можно по<br>
                 телефону 8 (812) 385-77-56</p>
-            <p class="banner__text2">Оставьте свой номер, а мы<br>
+            <p class="banner__text--phone">Оставьте свой номер, а мы<br>
                 Вам перезвоним</p>
 
-            <form action="#" class="form">
-                <input class="form__input" type="text" value="+380">
+            <form action="#" class="banner--form">
+                <input class="form__input" type="text" value="  +380">
                 <button class="form__button" type="submit" value="Отправить">Отправить</button>
             </form>
         </section>
@@ -66,31 +70,31 @@
 </div>
 
 <section id="service">
-    <div class="service__block block1">
-        <div><img src="../images/object_1.png" alt=""></div>
+    <div class="service__block first-block">
+        <div><img class="service__img" src="../images/object_1.png" alt=""></div>
         <p class="block__title">Best Treatment</p>
         <p class="block__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
             laudantium.</p>
     </div>
 
-    <div class="service__block block2">
-        <div><img src="../images/object_2.png" alt=""></div>
+    <div class="service__block second-block">
+        <div><img class="service__img" src="../images/object_2.png" alt=""></div>
         <p class="block__title">Emergency Help</p>
         <p class="block__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
             laudantium.</p>
 
     </div>
 
-    <div class="service__block block3">
-        <div><img src="../images/object_3.png" alt=""></div>
+    <div class="service__block third-block">
+        <div><img class="service__img" src="../images/object_3.png" alt=""></div>
         <p class="block__title">Medical Staff</p>
         <p class="block__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
             laudantium.</p>
 
     </div>
 
-    <div class="service__block block4">
-        <div><img src="../images/object_4.png" alt=""></div>
+    <div class="service__block fourth-block">
+        <div><img class="service__img" src="../images/object_4.png" alt=""></div>
         <p class="block__title">Qualified Doctors</p>
         <p class="block__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
             laudantium.</p>
