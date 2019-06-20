@@ -10,7 +10,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap&subset=cyrillic"
+          rel="stylesheet">
 
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/max-width_720px.css">
@@ -47,7 +48,6 @@
             </nav>
 
 
-
             <nav id="menu_bar" class="navigator__menu--screen">
                 <span class="navigator__menu--titel">МЕНЮ</span>
                 <ul class="navigator__menu--list">
@@ -71,7 +71,8 @@
 <div class="banner">
     <div class="banner__wrap">
         <section class="banner__info">
-            <p class="banner__article--text">Всю необходимую информацию о том, как и в каком центре<br class="text-none-step">
+            <p class="banner__article--text">Всю необходимую информацию о том, как и в каком центре<br
+                    class="text-none-step">
                 сделать МРТ, КТ и рентген исследованиях, cравнить интересующие<br class="text-none-step">
                 Вас клиники, цены на диагностику и порядок прохождения<br class="text-none-step">
                 процедур, а также записаться на исследование можно по<br class="text-none-step">
@@ -123,166 +124,463 @@
 
 <aside class="main">
 
-    <div class="main-nav">
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">MРТ</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">КТ</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">РЕНТГЕН ИССЛЕДОВАНИЯ</a>
-            </li>
-        </ul>
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+               aria-controls="nav-home" aria-selected="true">МРТ</a>
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+               aria-controls="nav-profile" aria-selected="false">KT</a>
+            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+               aria-controls="nav-contact" aria-selected="false">РЕНТГЕН ИССЛЕДОВАНИЯ</a>
+        </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="all_tabs">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="button__main">
+                    <button class="button__show" name="button">Все кабинеты</button>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div class="all_tabs">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="button__main">
+                    <button class="button__show" name="button">Все кабинеты</button>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <div class="all_tabs">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-block--top">
+                                    <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
+                                    <div class="cardblock-title">
+                                        <p class="card-main-title">Название клиники</p>
+                                        <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                                    как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                    увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
+                                <div class="card-block--bottom">
+                                    <p class="card-number">Наш номер: +3856 0 99 66 65</p>
+                                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="button__main">
+                    <button class="button__show" name="button">Все кабинеты</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="all_tabs">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-block--top">
-                            <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
-                            <div class="cardblock-title">
-                                <p class="card-main-title">Название клиники</p>
-                                <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
-                            </div>
-                        </div>
-                        <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
-                            дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
-                            как контент впоследствии будет выглядеть на готовой странице, чтобы
-                            увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
-
-                        <div class="card-block--bottom">
-                            <p class="card-number">Наш номер: +3856 0 99 66 65</p>
-                            <a href="#" class="btn btn-primary">Заказать звонок</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-block--top">
-                            <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
-                            <div class="cardblock-title">
-                                <p class="card-main-title">Название клиники</p>
-                                <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
-                            </div>
-                        </div>
-                        <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
-                            дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
-                            как контент впоследствии будет выглядеть на готовой странице, чтобы
-                            увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
-                        <div class="card-block--bottom">
-                            <p class="card-number">Наш номер: +3856 0 99 66 65</p>
-                            <a href="#" class="btn btn-primary">Заказать звонок</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-block--top">
-                            <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
-                            <div class="cardblock-title">
-                                <p class="card-main-title">Название клиники</p>
-                                <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
-                            </div>
-                        </div>
-                        <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
-                            дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
-                            как контент впоследствии будет выглядеть на готовой странице, чтобы
-                            увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
-
-                        <div class="card-block--bottom">
-                            <p class="card-number">Наш номер: +3856 0 99 66 65</p>
-                            <a href="#" class="btn btn-primary">Заказать звонок</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-block--top">
-                            <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
-                            <div class="cardblock-title">
-                                <p class="card-main-title">Название клиники</p>
-                                <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
-                            </div>
-                        </div>
-                        <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
-                            дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
-                            как контент впоследствии будет выглядеть на готовой странице, чтобы
-                            увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
-                        <div class="card-block--bottom">
-                            <p class="card-number">Наш номер: +3856 0 99 66 65</p>
-                            <a href="#" class="btn btn-primary">Заказать звонок</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-block--top">
-                            <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
-                            <div class="cardblock-title">
-                                <p class="card-main-title">Название клиники</p>
-                                <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
-                            </div>
-                        </div>
-                        <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
-                            дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
-                            как контент впоследствии будет выглядеть на готовой странице, чтобы
-                            увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
-
-                        <div class="card-block--bottom">
-                            <p class="card-number">Наш номер: +3856 0 99 66 65</p>
-                            <a href="#" class="btn btn-primary">Заказать звонок</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-block--top">
-                            <img class="card__care-logo" src="../images/logo_care.png" alt="Логотип Клиники">
-                            <div class="cardblock-title">
-                                <p class="card-main-title">Название клиники</p>
-                                <p class="card-under-titel">Ленинский проспект, д. 160, Ленинский проспект</p>
-                            </div>
-                        </div>
-                        <p class="card-text">Что такое текст «рыба» знают все, кто работает с версткой журналов,
-                            дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
-                            как контент впоследствии будет выглядеть на готовой странице, чтобы
-                            увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...</p>
-                        <div class="card-block--bottom">
-                            <p class="card-number">Наш номер: +3856 0 99 66 65</p>
-                            <a href="#" class="btn btn-primary">Заказать звонок</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="button__main">
-            <button class="button__show" name="button">Все кабинеты</button>
-        </div>
-    </div>
 
 </aside>
 
@@ -290,29 +588,65 @@
     <div class="section__block">
         <div class="section__info--left col-sm-7">
             <p class="section__titel">Последние статьи</p>
-            <div class="section__inner">
-                <figure class="section__inner--img">
-                    <img src="../images/doctor_women.png" alt="Врач">
-                </figure>
-                <p class="section__info-text--left">Что такое текст «рыба» знают все, кто работает с версткой журналов, дизайном и
-                    разработкой сайтов. Этот текст служит для демонстрации того, как контент впоследствии будет
-                    выглядеть на готовой странице, чтобы увидеть, правильно ли размещаются абзацы, отступы, хорошо ли
-                    смотрятся шрифты. Такие рыбные тексты, как правило, не несут никакой смысловой нагрузки. <br><br>
 
-                    На моменте создания макета у дизайнера нет готовых текстов, поэтому генерируется некий
-                    демонстрационный текст. Некоторые студии предпочитают писать такой текст самостоятельно, но чаще
-                    используются готовые тексты, созданные программой – генератором текста. Более того, у такого текста
-                    есть один неоспоримый плюс –
-                </p>
+
+            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+
+                       <div class="d-block w-100">
+                           <div class="section__inner">
+                            <figure class="section__inner--img">
+                                <img src="../images/doctor_women.png" alt="Врач">
+                            </figure>
+                            <p class="section__info-text--left">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                дизайном и
+                                разработкой сайтов. Этот текст служит для демонстрации того, как контент впоследствии будет
+                                выглядеть на готовой странице, чтобы увидеть, правильно ли размещаются абзацы, отступы, хорошо ли
+                                смотрятся шрифты. Такие рыбные тексты, как правило, не несут никакой смысловой нагрузки. <br><br>
+
+                                На моменте создания макета у дизайнера нет готовых текстов, поэтому генерируется некий
+                                демонстрационный текст. Некоторые студии предпочитают писать такой текст самостоятельно, но чаще
+                                используются готовые тексты, созданные программой – генератором текста. Более того, у такого текста
+                                есть один неоспоримый плюс –
+                            </p>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <div class="d-block w-100">
+                            <div class="section__inner">
+                                <figure class="section__inner--img">
+                                    <img src="../images/doctor_women.png" alt="Врач">
+                                </figure>
+                                <p class="section__info-text--left">Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                                    дизайном и
+                                    разработкой сайтов. Этот текст служит для демонстрации того, как контент впоследствии будет
+                                    выглядеть на готовой странице, чтобы увидеть, правильно ли размещаются абзацы, отступы, хорошо ли
+                                    смотрятся шрифты. Такие рыбные тексты, как правило, не несут никакой смысловой нагрузки. <br><br>
+
+                                    На моменте создания макета у дизайнера нет готовых текстов, поэтому генерируется некий
+                                    демонстрационный текст. Некоторые студии предпочитают писать такой текст самостоятельно, но чаще
+                                    используются готовые тексты, созданные программой – генератором текста. Более того, у такого текста
+                                    есть один неоспоримый плюс –
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
             <div class="section__button">
                 <div class="arrows">
-                    <a href="#">
+
+                   <div class="sliders_left">
+                       <a class="carousel-control-prev section__info--left__arrow-left" href="#carouselExampleInterval" role="button" data-slide="prev">
                         <img src="../images/arrow-left.png" alt="">
-                    </a>
-                    <a href="#">
-                        <img src="../images/arrow-right.png" alt="">
-                    </a>
+                       </a>
+                       <a class="carousel-control-next section__info--left__arrow-right" href="#carouselExampleInterval" role="button" data-slide="next">
+                           <img src="../images/arrow-right.png" alt="">
+                       </a>
+                   </div>
                 </div>
                 <div class="button__sett">
                     <button class="button__more">Читать подробнее</button>
@@ -323,25 +657,56 @@
 
         <div class="section__info--right">
             <p class="section__titel">Отзывы о нас</p>
-            <p class="section__info-text--right">
-                Что такое текст «рыба» знают все, кто работает с версткой журналов, дизайном и разработкой сайтов. Этот
-                текст служит для демонстрации того, как контент впоследствии будет выглядеть на готовой странице, чтобы
-                увидеть, правильно ли размещаются абзацы, отступы, хорошо ли смотрятся шрифты. Такие рыбные тексты, как
-                правило, не несут никакой смысловой нагрузки. <br><br>
 
-                На моменте создания макета у дизайнера нет готовых текстов, поэтому генерируется некий демонстрационный
-                текст. Некоторые студии предпочитают писать такой текст самостоятельно, но чаще используются готовые
-                тексты, созданные программой – генератором текста. Более того, у такого текста есть один неоспоримый
-                плюс –
-            </p>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+
+                        <div class="d-block w-100">
+                            <div>
+                            <p class="section__info-text--right">
+                                Что такое текст «рыба» знают все, кто работает с версткой журналов, дизайном и разработкой сайтов. Этот
+                                текст служит для демонстрации того, как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                увидеть, правильно ли размещаются абзацы, отступы, хорошо ли смотрятся шрифты. Такие рыбные тексты, как
+                                правило, не несут никакой смысловой нагрузки. <br><br>
+
+                                На моменте создания макета у дизайнера нет готовых текстов, поэтому генерируется некий демонстрационный
+                                текст. Некоторые студии предпочитают писать такой текст самостоятельно, но чаще используются готовые
+                                тексты, созданные программой – генератором текста. Более того, у такого текста есть один неоспоримый
+                                плюс –
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <div class="d-block w-100">
+                            <p class="section__info-text--right">
+                                Что такое текст «рыба» знают все, кто работает с версткой журналов, дизайном и разработкой сайтов. Этот
+                                текст служит для демонстрации того, как контент впоследствии будет выглядеть на готовой странице, чтобы
+                                увидеть, правильно ли размещаются абзацы, отступы, хорошо ли смотрятся шрифты. Такие рыбные тексты, как
+                                правило, не несут никакой смысловой нагрузки. <br><br>
+
+                                На моменте создания макета у дизайнера нет готовых текстов, поэтому генерируется некий демонстрационный
+                                текст. Некоторые студии предпочитают писать такой текст самостоятельно, но чаще используются готовые
+                                тексты, созданные программой – генератором текста. Более того, у такого текста есть один неоспоримый
+                                плюс –
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
             <div class="arrows__set">
                 <div class="arrows">
-                    <a href="#">
-                        <img src="../images/arrow-left.png" alt="">
-                    </a>
-                    <a href="#">
-                        <img src="../images/arrow-right.png" alt="">
-                    </a>
+                    <div class="sliders_left">
+                        <a class="carousel-control-prev section__info--right__arrow-left" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <img src="../images/arrow-left.png" alt="">
+                        </a>
+                        <a class="carousel-control-next section__info--right__arrow-right" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <img src="../images/arrow-right.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -412,40 +777,41 @@
                 </div>
 
             </div>
-           <div class="footer__media-link screen__media-links">
-               <div class="footer__mid__block--links">
-                   <p class="footer__mid__titles">Quick Links</p>
-                   <ul class="footer__li-links">
-                       <li class="li-marker"><a href="#" class="text">About us</a></li>
-                       <li class="li-marker"><a href="#" class="text">Blog</a></li>
-                       <li class="li-marker"><a href="#" class="text">Contact us</a></li>
-                       <li class="li-marker"><a href="#" class="text">Faq</a></li>
-                       <li class="li-marker"><a href="#" class="text">Insurance</a></li>
-                       <li class="li-marker"><a href="#" class="text">Chiropratic Therapy</a></li>
+            <div class="footer__media-link screen__media-links">
+                <div class="footer__mid__block--links">
+                    <p class="footer__mid__titles">Quick Links</p>
+                    <ul class="footer__li-links">
+                        <li class="li-marker"><a href="#" class="text">About us</a></li>
+                        <li class="li-marker"><a href="#" class="text">Blog</a></li>
+                        <li class="li-marker"><a href="#" class="text">Contact us</a></li>
+                        <li class="li-marker"><a href="#" class="text">Faq</a></li>
+                        <li class="li-marker"><a href="#" class="text">Insurance</a></li>
+                        <li class="li-marker"><a href="#" class="text">Chiropratic Therapy</a></li>
 
-                   </ul>
-               </div>
-               <div class="footer__mid__block--services">
-                   <p class="footer__mid__titles">Our Services</p>
-                   <ul class="footer__li-links">
-                       <li class="li-marker"><a href="#" class="text">Work Injuries</a></li>
-                       <li class="li-marker"><a href="#" class="text">Sport Injuries</a></li>
-                       <li class="li-marker"><a href="#" class="text">Cold Laser Therapy</a></li>
-                       <li class="li-marker"><a href="#" class="text">Massage Therapy</a></li>
-                       <li class="li-marker"><a href="#" class="text">Physiotherapy</a></li>
-                       <li class="li-marker"><a href="#" class="text">Chiropratic Therapy</a></li>
+                    </ul>
+                </div>
+                <div class="footer__mid__block--services">
+                    <p class="footer__mid__titles">Our Services</p>
+                    <ul class="footer__li-links">
+                        <li class="li-marker"><a href="#" class="text">Work Injuries</a></li>
+                        <li class="li-marker"><a href="#" class="text">Sport Injuries</a></li>
+                        <li class="li-marker"><a href="#" class="text">Cold Laser Therapy</a></li>
+                        <li class="li-marker"><a href="#" class="text">Massage Therapy</a></li>
+                        <li class="li-marker"><a href="#" class="text">Physiotherapy</a></li>
+                        <li class="li-marker"><a href="#" class="text">Chiropratic Therapy</a></li>
 
-                   </ul>
-               </div>
-           </div>
+                    </ul>
+                </div>
+            </div>
             <div class="footer__mid__block--form">
                 <p class="footer__mid__titles">Enquiry Form</p>
                 <form action="#" class="footer__form">
                     <input class="footer__form__name form-sett text" type="text" name="имя" value="Name">
                     <input class="footer__form__phone form-sett text" type="text" name="телефон" value="Phone">
-                    <textarea class="footer__form__textarea form-sett text"name="message" id="footer__message" cols="2" rows="4">Message</textarea>
+                    <textarea class="footer__form__textarea form-sett text" name="message" id="footer__message" cols="2"
+                              rows="4">Message</textarea>
                     <div class="footer__button">
-                        <input class="footer__form__submit"type="submit" value="SUBMIT">
+                        <input class="footer__form__submit" type="submit" value="SUBMIT">
                     </div>
                 </form>
 
@@ -465,6 +831,15 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous">
 </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 <script src="js/menu_bar.js"></script>
 
 </html>

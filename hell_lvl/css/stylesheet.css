@@ -50,6 +50,12 @@
     color: white;
     font-size: 24px;
     margin: 0 15px;
+    transition: .6s;
+}
+.navigator__tel--number:hover {
+    color: #494848;
+    text-decoration: none;
+    transition: .6s;
 }
 
 .navigator__menu, .navigator__tel {
@@ -66,6 +72,7 @@
     display: flex;
     text-align: right;
 }
+
 .navigator__menu{
     display: flex;
 }
@@ -217,6 +224,7 @@
     border-right: 1px solid #dee2e6;
     border-bottom: 1px solid #dee2e6;
 }
+
 .nav-link{
     font-family: Calibri, sans-serif;
     font-weight: 700;
@@ -333,7 +341,7 @@
 }
 .section__info-text--left, .section__info-text--right {
     font-family: Calibri, sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     color: #585859;
     line-height: 15px;
@@ -360,6 +368,31 @@
 }
 .arrows {
     padding: 0 35px 0 0;
+}
+
+.section__info--left__arrow-left,
+.section__info--left__arrow-right {
+    width: 5%;
+    height: auto;
+    position: relative;
+    top: auto;
+    bottom: auto;
+    display: contents;
+    left: auto;
+}
+.section__info--right__arrow-left,
+.section__info--right__arrow-right {
+    width: 5%;
+    height: auto;
+    position: relative;
+    top: auto;
+    bottom: auto;
+    display: contents;
+    left: auto;
+}
+
+.sliders_left{
+
 }
 .section__button {
     justify-content: space-between;
