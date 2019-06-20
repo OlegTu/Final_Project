@@ -1,0 +1,244 @@
+@media only screen and (max-width: 720px) {
+
+
+
+          /*HEADER*/
+
+    .header{
+        padding: 10px 0 10px 0;
+    }
+    .header__wrap{
+        flex-direction: column;
+    }
+    .header__logo {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        width: 390px;
+    }
+    .navigator{
+        display: flex;
+        padding: 5px 0 0 0;
+    }
+    .navigator__menu--list, .navigator__menu {
+        text-align: center;
+        display: block;
+        padding: 0;
+    }
+    .header__logo--name{
+        margin: 0 0 0 25px;
+    }
+    .navigator__tel{
+        order: 2;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 0 0;
+    }
+
+
+
+    /*  Меню */
+    .navigator__menu{
+        display: none;
+    }
+    .navigator__menu--screen{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .navigator__menu--list{
+        margin: 0;
+        list-style: none;
+        display: none;
+        padding-top: 10px;
+    }
+    .navigator__menu--titel{
+        font-size: 24px;
+        font-family: Calibri, sans-serif;
+        font-weight: 700;
+        color: #585859;
+        transition: .6s;
+        display: flex;
+        justify-content: center;
+        border: 3px solid white;
+        margin: auto;
+        padding: 5px 5px 0 5px;
+    }
+    .navigator__menu--titel:hover{
+        color: white;
+        transition: .6s;
+    }
+    .navigator__menu--titel::before{
+        font-size: 80%;
+        color: #585859;
+    }
+    .navigator__menu--screen.open
+    .navigator__menu--list {
+        display: block;
+    }
+
+
+
+            /*BANNER*/
+
+    .banner{
+        padding: 0 0 60px 0;
+    }
+    .banner__wrap {
+        background: url("../../images/doctor_screen.png");
+        width: 540px;
+        height: 515px;
+        margin: auto;
+        padding: 0 15px;
+    }
+    .banner__info{
+        padding: 320px 0 0 0;
+    }
+    .banner__article--text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .banner__text--phone {
+        font-size: 23px;
+        line-height: 20px;
+        margin: auto 0;
+        padding: 20px 0 20px 0;
+    }
+    .text-none-step {
+        display: none;
+    }
+
+
+    /*Service*/
+
+    #service{
+        flex-direction: column;
+    }
+    .service__block{
+        padding: 20px 55px 0 55px;
+    }
+    .block__title{
+        margin: auto;
+    }
+
+
+    /*TABS*/
+
+    .card-text{
+        padding: 20px 0 0 0;
+        font-size: 16px;
+    }
+    .card__care-logo{
+        width: 190px;
+        height: 70px;
+    }
+    .card-main-title{
+        font-size: 26px;
+    }
+    .card-under-titel{
+        font-size: 14px;
+    }
+    .card-number {
+        font-size: 16px;
+    }
+
+
+    /* SECTION ARTICLE */
+
+    .section__inner{
+    display: flex;
+    flex-direction: column;
+    }
+    .section__block{
+        flex-direction: column;
+    }
+    .section__titel{
+        text-align: center;
+    }
+    .section__info-text--left, .section__info-text--right{
+        padding: 15px 30px 0px 30px;
+        font-size: 16px;
+    }
+    .section__info--right{
+        padding: 0;
+    }
+    .section__info--left{
+        max-width: none;
+    }
+    .section__button{
+        padding: 20px 15px 40px 30px;
+    }
+    .arrows__set{
+        justify-content: flex-start;
+        padding: 20px 15px 40px 30px;
+    }
+
+    /* FOOTER_TOP*/
+
+    .footer__top{
+        padding: 15px 0 20px 0;
+    }
+    .footer__top-wrap{
+        display: block;
+    }
+    .footer__top__form{
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0 0 0;
+    }
+    .form{
+        text-align: center;
+    }
+
+    /* FOOTER_MID*/
+
+    .footer__mid-wrap{
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 0 0 0;
+    }
+    .info-box{
+        justify-content: center;
+        padding: 20px 0 10px 0;
+    }
+    .footer__tel {
+        padding: 0 45px 0 0;
+    }
+    .footer__adress{
+        padding: 10px 0 0 25px;
+        text-align: left;
+    }
+    .screen__media-links{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0 30px 0;
+        width: auto;
+    }
+    .footer__li-links{
+        padding: 20px 0 0 20px;
+        text-align: left;
+        line-height: 15px;
+    }
+    .footer__mid__titles{
+        text-align: center;
+        margin: auto;
+    }
+    .footer__form{
+        padding: 5px 80px 30px 80px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
