@@ -55,6 +55,9 @@
 .navigator__menu, .navigator__tel {
     justify-content: flex-end;
 }
+.navigator__menu--screen{
+    display: none;
+}
 .logo__tel {
     display: inline-flex;
     padding: 5px 4px;
