@@ -82,12 +82,13 @@
             /*BANNER*/
 
     .banner{
-        padding: 0 0 60px 0;
+        padding: 0 0 35px 0;
     }
     .banner__wrap {
         background: url("../../images/doctor_screen.png");
-        width: 540px;
-        height: 515px;
+        background-repeat: no-repeat;
+        width: auto;
+        height: auto;
         margin: auto;
         padding: 0 15px;
     }
