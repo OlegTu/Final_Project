@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-                  /* HEADER */
+/* HEADER */
 
 .header {
     display: flex;
@@ -17,7 +17,7 @@
     margin: 0 auto;
 }
 
-    /*header logo*/
+/*header logo*/
 
 .header__logo {
     display: inline-flex;
@@ -36,7 +36,7 @@
 }
 
 
-     /* header nav*/
+/* header nav*/
 
 .navigator {
     flex-direction: column;
@@ -54,6 +54,9 @@
 
 .navigator__menu, .navigator__tel {
     justify-content: flex-end;
+}
+.navigator__menu--screen{
+    display: none;
 }
 .logo__tel {
     display: inline-flex;
@@ -95,9 +98,9 @@
 }
 
 
-    /* BODY */
+/* BODY */
 
- /*   Banner  */
+/*   Banner  */
 
 .banner {
     background-color: #cbd4e6;
@@ -157,7 +160,7 @@
 }
 
 
-     /* SERVICE INFO */
+/* SERVICE INFO */
 
 #service {
     display: flex;
@@ -202,7 +205,7 @@
 }
 
 
-     /* TABS */
+/* TABS */
 
 .main {
     max-width: 1440px;
@@ -240,6 +243,10 @@
 .cardblock-title {
     display: flex;
     flex-direction: column;
+}
+.card__care-logo{
+    width: 220px;
+    height: 75px;
 }
 .card-main-title {
     font-family: Calibri, sans-serif;
@@ -368,14 +375,14 @@
 
 
 
-                /* FOOTER */
+/* FOOTER */
 
 .footer {
     width: 100%;
 }
 
 
-    /* FOOTER TOP*/
+/* FOOTER TOP*/
 
 .footer__top{
     background-color: #43b1d2;
@@ -403,7 +410,7 @@
 
 
 
-                 /*FOOTER MID*/
+/*FOOTER MID*/
 
 .footer__mid{
     background-color: #e5e9f2;
@@ -430,7 +437,7 @@
 }
 
 
-    /* footer MID info*/
+/* footer MID info*/
 
 .info-box{
     display: flex;
@@ -449,7 +456,7 @@
     padding: 25px 0 0 0;
 }
 
-    /* footer MID links*/
+/* footer MID links*/
 
 .footer__li-links{
     margin: 0;
@@ -462,7 +469,7 @@
 
 
 
-    /*footer MID form*/
+/*footer MID form*/
 
 .footer__form {
     display: flex;
@@ -498,7 +505,7 @@
 
 
 
-                 /*FOOTER BOTTOM*/
+/*FOOTER BOTTOM*/
 .footer__bottom{
     background-color: #43b1d2;
     width: 100%;
